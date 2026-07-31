@@ -1,0 +1,24 @@
+name: FXTimeWeather
+version: '${version}'
+main: ua.fxtimeweather.FXTimeWeather
+api-version: '1.21'
+authors: [ FlariethX ]
+softdepend: [PlaceholderAPI]
+
+commands:
+  twreload:
+    description: Перезавантажити конфігурацію
+    usage: /twreload
+    permission: fxtw.reload
+  twtoggle:
+    description: Увімкнути/вимкнути показ
+    usage: /twtoggle
+    permission: fxtw.use
+
+permissions:
+  fxtw.reload:
+    description: Дозволяє використовувати команду /twreload
+    default: op
+  fxtw.use:
+    description: Дозволяє використовувати команду /twtoggle
+    default: true

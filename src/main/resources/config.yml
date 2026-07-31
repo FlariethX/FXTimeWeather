@@ -1,0 +1,92 @@
+# ══════════════════════════════════════════════
+#   FXTimeWeather — конфігурація плагіну
+#   Автор: LiasLatys
+# ══════════════════════════════════════════════
+
+# Формат відображення ігрового часу.
+# Приклади: 'HH:mm' (14:35), 'HH:mm:ss' (14:35:12)
+day_time_format: 'HH:mm'
+
+# ──────────────────────────────
+#   Фази доби — назви
+# ──────────────────────────────
+day_name:
+  dawn: 'Світанок'
+  morning: 'Ранок'
+  day: 'День'
+  evening: 'Вечір'
+  dusk: 'Сутінки'
+  night: 'Ніч'
+
+# ──────────────────────────────
+#   Фази доби — іконки
+# ──────────────────────────────
+day_icon:
+  dawn: '&7☀'
+  morning: '&e☀'
+  day: '&6☀'
+  evening: '&e🌙'
+  dusk: '&7🌙'
+  night: '&8🌙'
+
+# ──────────────────────────────
+#   Погода — назви
+# ──────────────────────────────
+weather_name:
+  clear: 'Ясно'
+  rain: 'Дощ'
+  storm: 'Гроза'
+
+# ──────────────────────────────
+#   Погода — іконки
+# ──────────────────────────────
+weather_icon:
+  clear: '&e☀'
+  rain: '&b🌧'
+  storm: '&9⛈'
+
+# ══════════════════════════════════════════════
+#   Відображення часу/погоди
+# ══════════════════════════════════════════════
+display:
+
+  # Який спосіб показу використовувати: 'bossbar' або 'actionbar'
+  # Працює лише один режим одночасно.
+  type: actionbar
+
+  # ──────────────────────────────
+  #   Налаштування боссбару
+  #   (застосовуються, якщо type: bossbar)
+  # ──────────────────────────────
+  bossbar:
+    # SOLID, SEGMENTED_6, SEGMENTED_10, SEGMENTED_12, SEGMENTED_20
+    style: SOLID
+
+    # PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+    color: PURPLE
+
+    # Інтервал оновлення в тіках (20 тіків = 1 секунда)
+    update_interval: 20
+
+    # Доступні плейсхолдери: %fxtw_time_icon% %fxtw_time_name%
+    #                        %fxtw_weather_icon% %fxtw_weather_name%
+    #                        %fxtw_day_count% %fxtw_day_time%
+    text: "&fДоба: %fxtw_time_icon% %fxtw_time_name%  &7•  &fПогода: %fxtw_weather_icon% %fxtw_weather_name%  &7•  &fДень: &d%fxtw_day_count%  &7•  &fЧас: &d%fxtw_day_time%"
+
+  # ──────────────────────────────
+  #   Налаштування actionbar
+  #   (застосовуються, якщо type: actionbar)
+  # ──────────────────────────────
+  actionbar:
+    update_interval: 20
+    text: "&fДоба: %fxtw_time_icon% %fxtw_time_name%  &7•  &fПогода: %fxtw_weather_icon% %fxtw_weather_name%  &7•  &fДень: &d%fxtw_day_count%  &7•  &fЧас: &d%fxtw_day_time%"
+
+# ══════════════════════════════════════════════
+#   Повідомлення
+# ══════════════════════════════════════════════
+messages:
+  prefix: "<#8B00F8>FXTɪᴍᴇWᴇᴀᴛʜᴇʀ</#F700FC> &7• &r"
+  reload_success: "&fКонфігурацію успішно &aперезавантажено"
+  no_permission: "&fУ вас &cнемає прав &fдля виконання цієї команди"
+  toggle_enabled: "&fПоказ інфо-панелі: &aувімкнено"
+  toggle_disabled: "&fПоказ інфо-панелі: &cвимкнено"
