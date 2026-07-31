@@ -73,9 +73,9 @@ display:
 ```
 
 - `bossbar` — використовує налаштування з блоку `display.bossbar` (колір, стиль, текст)  
- ![bossbar](<img width="960" height="121" alt="image" src="https://github.com/user-attachments/assets/bba30fa0-f43a-4205-aa77-9cd78ae8ad17" />)  
+ ![bossbar]([<img width="960" height="121" alt="image" src="https://github.com/user-attachments/assets/bba30fa0-f43a-4205-aa77-9cd78ae8ad17" />](https://media.discordapp.net/attachments/1532381531861942323/1532719559277023394/2026-07-31_14-59-16.png?ex=6a6ddfd3&is=6a6c8e53&hm=54494acdfbe74d9736eccdf0734748fc4f1078da6a72662cf80e9df09972cbfe&=&format=webp&quality=lossless&width=1200&height=151))  
 - `actionbar` — використовує налаштування з блоку `display.actionbar` (текст)  
- ![actionbar](<img width="899" height="275" alt="image" src="https://github.com/user-attachments/assets/ac46ab29-3d8c-470f-93bd-0107cab7c58e" />)  
+ ![actionbar]([<img width="899" height="275" alt="image" src="https://github.com/user-attachments/assets/ac46ab29-3d8c-470f-93bd-0107cab7c58e" />](https://media.discordapp.net/attachments/1532381531861942323/1532719824567013467/image.png?ex=6a6de012&is=6a6c8e92&hm=dd7943296cf0ede898edc3cf18a00c2f970ad97aad786180da6a30773597d984&=&format=webp&quality=lossless&width=1124&height=344))  
 
 Обидва блоки завжди зберігаються в конфізі одночасно — можна тримати готові
 налаштування для обох режимів і перемикатись між ними просто змінюючи `type`
