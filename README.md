@@ -73,9 +73,9 @@ display:
 ```
 
 - `bossbar` — використовує налаштування з блоку `display.bossbar` (колір, стиль, текст)  
-<img width="960" height="121" alt="image" src="https://github.com/user-attachments/assets/bba30fa0-f43a-4205-aa77-9cd78ae8ad17" />  
+![bossbar](<img width="960" height="121" alt="image" src="https://github.com/user-attachments/assets/bba30fa0-f43a-4205-aa77-9cd78ae8ad17" />)  
 -- `actionbar` — використовує налаштування з блоку `display.actionbar` (текст)  
-<img width="899" height="275" alt="image" src="https://github.com/user-attachments/assets/ac46ab29-3d8c-470f-93bd-0107cab7c58e" />  
+![actionbar](<img width="899" height="275" alt="image" src="https://github.com/user-attachments/assets/ac46ab29-3d8c-470f-93bd-0107cab7c58e" />)  
 
 Обидва блоки завжди зберігаються в конфізі одночасно — можна тримати готові
 налаштування для обох режимів і перемикатись між ними просто змінюючи `type`
